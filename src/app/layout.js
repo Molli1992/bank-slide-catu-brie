@@ -22,8 +22,6 @@ export const metadata = {
     images: [
       {
         url: "https://media.istockphoto.com/id/912149768/es/vector/icono-de-caja-de-regalo-simple-elemento-de-dise%C3%B1o-%C3%BAnico-color-aislado-en-blanco-regalo-dando.jpg?s=612x612&w=0&k=20&c=d9wQsDZAGTI_1b-hQ6X_6Y1oPVMM3D_YLJLUp8lYO88=",
-        width: 800,
-        height: 600,
         alt: "Mia y Tomi - Regalo",
       },
     ],
@@ -54,8 +52,8 @@ export default function RootLayout({ children }) {
           property="og:image"
           content="https://media.istockphoto.com/id/912149768/es/vector/icono-de-caja-de-regalo-simple-elemento-de-dise%C3%B1o-%C3%BAnico-color-aislado-en-blanco-regalo-dando.jpg?s=612x612&w=0&k=20&c=d9wQsDZAGTI_1b-hQ6X_6Y1oPVMM3D_YLJLUp8lYO88="
         />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
+        <meta property="og:image:width" />
+        <meta property="og:image:height" />
         <meta property="og:image:alt" content="Mia y Tomi - Regalo" />
 
         {/* Twitter Meta Tags */}
