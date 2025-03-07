@@ -38,9 +38,8 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "43%",
-            left: "74%",
-            transform: "translateX(-50%)",
+            top: "31.5%",
+            left: "82.5%",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -50,9 +49,8 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "USDT")}
           style={{
-            top: "67%",
-            left: "74%",
-            transform: "translateX(-50%)",
+            top: "63.4%",
+            left: "86%",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -69,9 +67,8 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "48%",
-            left: "50%",
-            transform: "translateX(-50%)",
+            top: "36%",
+            left: "80%",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -83,9 +80,8 @@ export default function Home() {
             handleCopy("TBrJ8rHLmGAoXyAqHP1KW6UHQSdREn6TT1", "USDT")
           }
           style={{
-            top: "69%",
-            left: "50%",
-            transform: "translateX(-50%)",
+            top: "65%",
+            left: "92%",
           }}
         >
           <FaRegCopy className={styles.icon} />
