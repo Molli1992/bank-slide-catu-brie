@@ -38,7 +38,7 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "44%",
+            top: "44.4%",
             left: "73.3%",
           }}
         >
@@ -81,7 +81,7 @@ export default function Home() {
             handleCopy("TBrJ8rHLmGAoXyAqHP1KW6UHQSdREn6TT1", "USDT")
           }
           style={{
-            top: "69%",
+            top: "68.5%",
             left: "50%",
             transform: "translateX(-50%)",
           }}
