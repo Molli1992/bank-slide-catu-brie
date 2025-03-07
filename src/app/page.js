@@ -49,7 +49,7 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "USDT")}
           style={{
-            top: "69%",
+            top: "67%",
             left: "73.3%",
           }}
         >
