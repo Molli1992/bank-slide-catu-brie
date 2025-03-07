@@ -39,7 +39,7 @@ export default function Home() {
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
             top: "45%",
-            left: "74.1%",
+            left: "73.8%",
             transform: "translateX(-50%)",
           }}
         >
@@ -51,7 +51,7 @@ export default function Home() {
           onClick={() => handleCopy("2850467840095904560598", "USDT")}
           style={{
             top: "68%",
-            left: "74.1%",
+            left: "73.8%",
             transform: "translateX(-50%)",
           }}
         >
