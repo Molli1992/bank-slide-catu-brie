@@ -14,7 +14,7 @@ export default function Home() {
     navigator.clipboard.writeText(text);
     setToast(true);
     setToastData({
-      title: "Copiado",
+      title: type === "CBU" ? "CBU Copiado" : "Dirección Copiada",
       description:
         type === "CBU"
           ? "CBU copiado correctamente"
@@ -38,8 +38,8 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "31.5%",
-            left: "82.5%",
+            top: "44%",
+            left: "73.3%",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -49,8 +49,8 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "USDT")}
           style={{
-            top: "63.4%",
-            left: "86%",
+            top: "69%",
+            left: "73.3%",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -67,8 +67,9 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "36%",
-            left: "80%",
+            top: "48%",
+            left: "50%",
+            transform: "translateX(-50%)",
           }}
         >
           <FaRegCopy className={styles.icon} />
@@ -80,8 +81,9 @@ export default function Home() {
             handleCopy("TBrJ8rHLmGAoXyAqHP1KW6UHQSdREn6TT1", "USDT")
           }
           style={{
-            top: "65%",
-            left: "92%",
+            top: "69%",
+            left: "50%",
+            transform: "translateX(-50%)",
           }}
         >
           <FaRegCopy className={styles.icon} />
