@@ -38,24 +38,24 @@ export default function Home() {
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
-            top: "45%",
+            top: "43%",
             left: "74%",
             transform: "translateX(-50%)",
           }}
         >
-          Copiar CBU <FaRegCopy className={styles.icon} />
+          <FaRegCopy className={styles.icon} />
         </button>
 
         <button
           className={styles.copyButton}
           onClick={() => handleCopy("2850467840095904560598", "USDT")}
           style={{
-            top: "68%",
-            left: "75%",
+            top: "67%",
+            left: "74%",
             transform: "translateX(-50%)",
           }}
         >
-          Copiar dirección de deposito <FaRegCopy className={styles.icon} />
+          <FaRegCopy className={styles.icon} />
         </button>
       </div>
 
@@ -74,19 +74,21 @@ export default function Home() {
             transform: "translateX(-50%)",
           }}
         >
-          Copiar CBU <FaRegCopy className={styles.icon} />
+          <FaRegCopy className={styles.icon} />
         </button>
 
         <button
           className={styles.copyButton}
-          onClick={() => handleCopy("2850467840095904560598", "USDT")}
+          onClick={() =>
+            handleCopy("TBrJ8rHLmGAoXyAqHP1KW6UHQSdREn6TT1", "USDT")
+          }
           style={{
             top: "69%",
             left: "50%",
             transform: "translateX(-50%)",
           }}
         >
-          Copiar dirección de deposito <FaRegCopy className={styles.icon} />
+          <FaRegCopy className={styles.icon} />
         </button>
       </div>
 
