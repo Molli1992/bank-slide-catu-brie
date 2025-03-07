@@ -39,7 +39,7 @@ export default function Home() {
           onClick={() => handleCopy("2850467840095904560598", "CBU")}
           style={{
             top: "45%",
-            left: "75%",
+            left: "74%",
             transform: "translateX(-50%)",
           }}
         >
