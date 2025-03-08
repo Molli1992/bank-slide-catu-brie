@@ -1,6 +1,112 @@
-.body {
+.section {
   width: 100%;
   height: 100vh;
+}
+
+.bodyMobile {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMobile {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 400px;
+  position: relative;
+}
+
+.icon {
+  color: #2c2c2c;
+  position: absolute;
+  font-size: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bodyToast {
+  position: fixed;
+  top: 30px;
+  right: 0px;
+  width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #a7acb1;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  gap: 5px;
+  animation: fadeInUp 0.5s ease-out forwards;
+  z-index: 999;
+}
+
+.containerToast {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkIcon {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.iconToast {
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0px;
+}
+
+@media (max-width: 1023px) {
+  .bodyMobile {
+    display: flex;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.body {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,8 +185,8 @@
 
 .containerBankData h2 {
   font-family: "Myriad Pro", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .imgDesktop7 {
@@ -89,7 +195,12 @@
 }
 
 @media (max-width: 1023px) {
+  .bodyMobile {
+    display: flex;
+  }
+
   .body {
+    display: none;
     padding: 30px 10px;
   }
 
@@ -118,7 +229,7 @@
   }
 
   .containerBankData h2 {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .imgDesktop7 {
