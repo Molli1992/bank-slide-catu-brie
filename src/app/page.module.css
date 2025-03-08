@@ -172,7 +172,7 @@
   gap: 5px;
 }
 
-.desktop p {
+.container p {
   font-family: "Myriad Pro", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -183,7 +183,7 @@
   height: 2px;
 }
 
-.containerBankData h2 {
+.container h2 {
   font-family: "Myriad Pro", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -195,10 +195,6 @@
 }
 
 @media (max-width: 1023px) {
-  .bodyMobile {
-    display: flex;
-  }
-
   .body {
     display: none;
     padding: 30px 10px;
@@ -224,11 +220,11 @@
     font-size: 32px;
   }
 
-  .desktop p {
+  .container p {
     font-size: 14px;
   }
 
-  .containerBankData h2 {
+  .container h2 {
     font-size: 16px;
   }
 
