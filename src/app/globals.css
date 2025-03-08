@@ -3,3 +3,13 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../../public/fonts/MyriadPro-Regular 2.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AeroliteScriptCP2";
+  src: url("../../public/fonts/AeroliteScriptCP2.otf") format("opentype");
+}
