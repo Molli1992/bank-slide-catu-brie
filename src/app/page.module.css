@@ -149,6 +149,7 @@
   font-family: "AeroliteScriptCP2", cursive;
   font-size: 28px;
   font-weight: 500;
+  letter-spacing: 1.5px;
 }
 
 .desktopTitle {
@@ -169,6 +170,7 @@
   font-family: "Myriad Pro", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  letter-spacing: 1.5px;
 }
 
 .imgDesktop4 {
@@ -177,9 +179,10 @@
 }
 
 .container h2 {
-  font-family: "Myriad Pro", sans-serif;
+  font-family: "Myriad Pro Italic", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  letter-spacing: 1.5px;
 }
 
 .imgDesktop7 {
