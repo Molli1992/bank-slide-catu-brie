@@ -96,12 +96,6 @@
   margin: 0px;
 }
 
-@media (max-width: 1023px) {
-  .bodyMobile {
-    display: flex;
-  }
-}
-
 /* --------------------------------------------------------------------------------------------------------------- */
 
 .body {
@@ -124,6 +118,15 @@
   position: relative;
 }
 
+.heartIMG {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 70%;
+}
+
 .container {
   width: 50%;
   height: 100%;
@@ -131,16 +134,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-
-.heartIMG {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 100%;
-  width: 100%;
-  max-width: 750px;
 }
 
 .containerBankData {
@@ -190,14 +183,40 @@
 }
 
 .imgDesktop7 {
-  height: 100px;
-  width: 150px;
+  height: 85px;
+  width: 135px;
+}
+
+@media (max-width: 1365px) {
+  .body {
+    padding: 30px 10px;
+  }
+
+  .container h1 {
+    font-size: 32px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+
+  .container h2 {
+    font-size: 16px;
+  }
+
+  .imgDesktop7 {
+    height: 70px;
+    width: 120px;
+  }
 }
 
 @media (max-width: 1023px) {
+  .bodyMobile {
+    display: flex;
+  }
+
   .body {
     display: none;
-    padding: 30px 10px;
   }
 
   .containerLeft {
@@ -214,22 +233,5 @@
 
   .mobileTitle {
     display: flex;
-  }
-
-  .container h1 {
-    font-size: 32px;
-  }
-
-  .container p {
-    font-size: 14px;
-  }
-
-  .container h2 {
-    font-size: 16px;
-  }
-
-  .imgDesktop7 {
-    height: 75px;
-    width: 125px;
   }
 }
