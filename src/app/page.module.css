@@ -108,7 +108,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 50px 20px;
+  padding: 30px 10px;
   gap: 20px;
 }
 
@@ -147,7 +147,7 @@
 
 .container h1 {
   font-family: "AeroliteScriptCP2", cursive;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -168,7 +168,7 @@
 .container p {
   font-family: "Myriad Pro", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .imgDesktop4 {
@@ -179,35 +179,12 @@
 .container h2 {
   font-family: "Myriad Pro", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .imgDesktop7 {
-  height: 85px;
-  width: 135px;
-}
-
-@media (max-width: 1365px) {
-  .body {
-    padding: 30px 10px;
-  }
-
-  .container h1 {
-    font-size: 28px;
-  }
-
-  .container p {
-    font-size: 14px;
-  }
-
-  .container h2 {
-    font-size: 16px;
-  }
-
-  .imgDesktop7 {
-    height: 70px;
-    width: 120px;
-  }
+  height: 55px;
+  width: 110px;
 }
 
 @media (max-width: 1023px) {
