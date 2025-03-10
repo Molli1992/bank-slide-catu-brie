@@ -37,7 +37,7 @@ export default function Home() {
           style={{ gap: "0px" }}
         >
           <h1>
-            El mejor regalos es el tiempo <br /> compartido juntos. Pero si{" "}
+            El mejor regalo es el tiempo <br /> compartido juntos. Pero si{" "}
             <br />
             desean pueden ayudarnos con <br /> nuestra luna de miel!
           </h1>
