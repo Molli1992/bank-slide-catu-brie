@@ -42,6 +42,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+    <meta name="format-detection" content="telephone=no">
+    
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Mia y Tomi" />
         <meta
