@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Mia y Tomi",
   description:
-    "Usa nuestros datos bancarios para realizar un regalo a Mia y Tomi de forma rápida y segura",
+    "Hacenos tu regalo",
   openGraph: {
     title: "Mia y Tomi",
     description:
-      "Usa nuestros datos bancarios para realizar un regalo a Mia y Tomi de forma rápida y segura",
+      "Hacenos tu regalo",
     images: [
       {
         url: "https://media.istockphoto.com/id/912149768/es/vector/icono-de-caja-de-regalo-simple-elemento-de-dise%C3%B1o-%C3%BAnico-color-aislado-en-blanco-regalo-dando.jpg?s=612x612&w=0&k=20&c=d9wQsDZAGTI_1b-hQ6X_6Y1oPVMM3D_YLJLUp8lYO88=",
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Mia y Tomi",
     description:
-      "Usa nuestros datos bancarios para realizar un regalo a Mia y Tomi de forma rápida y segura",
+      "Hacenos tu regalo",
     images: [
       "https://media.istockphoto.com/id/912149768/es/vector/icono-de-caja-de-regalo-simple-elemento-de-dise%C3%B1o-%C3%BAnico-color-aislado-en-blanco-regalo-dando.jpg?s=612x612&w=0&k=20&c=d9wQsDZAGTI_1b-hQ6X_6Y1oPVMM3D_YLJLUp8lYO88=",
     ],
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Mia y Tomi" />
         <meta
           property="og:description"
-          content="Usa nuestros datos bancarios para realizar un regalo a Mia y Tomi de forma rápida y segura"
+          content="Hacenos tu regalo"
         />
         <meta
           property="og:image"
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Mia y Tomi" />
         <meta
           name="twitter:description"
-          content="Usa nuestros datos bancarios para realizar un regalo a Mia y Tomi de forma rápida y segura"
+          content="Hacenos tu regalo"
         />
         <meta
           name="twitter:image"
