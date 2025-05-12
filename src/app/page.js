@@ -46,23 +46,23 @@ export default function Home() {
         <div className={styles.containerBankData}>
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>Alias:</p>
-            <p>Tomichis</p>
+            <p>JhonyBravo!935</p>
           </div>
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>CBU:</p>
-            <p>2850467840095904560598</p>
+            <p>9273156084217950312467</p>
           </div>
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>Titular:</p>
-            <p>Tomas Karagozian</p>
+            <p>Jhony Bravo</p>
           </div>
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>CUIL / CUIT / CDI:</p>
-            <p>20349826829</p>
+            <p>58390217460</p>
           </div>
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>Caja de Ahorro en $:</p>
-            <p>446709590456059</p>
+            <p>238167304829175</p>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
 
           <div className={styles.containerText}>
             <p style={{ color: "rgba(163, 14, 0, 1)" }}>Red:</p>
-            <p>TRC20</p>
+            <p>TRC44</p>
           </div>
 
           <div className={styles.containerText}>
@@ -82,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.containerText}>
-            <p>TBrJ8rHLmGAoXyAqHP1KW6UHQSdREn6TT1</p>
+            <p>fL2xQyC7MpDw9RuEiN5ZKbXtJgVaA1oUH3Y</p>
           </div>
         </div>
 
