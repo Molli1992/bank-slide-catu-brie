@@ -12,24 +12,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mia y Tomi",
+  title: "Wed Gift Bank",
   description:
     "Hacenos tu regalo",
   openGraph: {
-    title: "Mia y Tomi",
+    title: "Wed Gift Bank",
     description:
       "Hacenos tu regalo",
     images: [
       {
         url: "https://media.istockphoto.com/id/912149768/es/vector/icono-de-caja-de-regalo-simple-elemento-de-dise%C3%B1o-%C3%BAnico-color-aislado-en-blanco-regalo-dando.jpg?s=612x612&w=0&k=20&c=d9wQsDZAGTI_1b-hQ6X_6Y1oPVMM3D_YLJLUp8lYO88=",
-        alt: "Mia y Tomi - Regalo",
+        alt: "Regalo",
       },
     ],
-    siteName: "Mia y Tomi",
+    siteName: "Wed Gift Bank",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mia y Tomi",
+    title: "Wed Gift Bank",
     description:
       "Hacenos tu regalo",
     images: [
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
         <meta name="format-detection" content="telephone=no" />
 
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Mia y Tomi" />
+        <meta property="og:title" content="Wed Gift Bank" />
         <meta
           property="og:description"
           content="Hacenos tu regalo"
@@ -56,11 +56,11 @@ export default function RootLayout({ children }) {
         />
         <meta property="og:image:width" />
         <meta property="og:image:height" />
-        <meta property="og:image:alt" content="Mia y Tomi - Regalo" />
+        <meta property="og:image:alt" content="Regalo" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mia y Tomi" />
+        <meta name="twitter:title" content="Wed Gift Bank" />
         <meta
           name="twitter:description"
           content="Hacenos tu regalo"
